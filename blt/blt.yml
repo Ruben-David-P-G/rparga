@@ -1,2 +1,54 @@
+uri: http://rparga.test
 project:
   machine_name: rparga
+  prefix: RP
+  human_name: 'RParga'
+  profile:
+    name: minimal
+  local:
+    protocol: http
+    hostname: rparga.test
+git:
+  default_branch: master
+  remotes:
+    cloud: 'git@github.com:Ruben-David-P-G/rparga.git'
+deploy:
+  tag_source: true
+drush:
+  aliases:
+    remote: 'rparga.test'
+    local: self
+    ci: self
+  default_alias: '${drush.aliases.local}'
+modules:
+  local:
+    enable: [dblog, devel, seckit, views_ui]
+    uninstall: [shield]
+  ci:
+    enable: {  }
+    uninstall: [shield]
+  dev:
+    enable: [shield]
+    uninstall: {  }
+  test:
+    enable: [shield]
+    uninstall: [devel, views_ui]
+  prod:
+    enable: [shield]
+    uninstall: [devel, views_ui]
+validate:
+  twig:
+    functions:
+      - pattern
+      - drupal_field
+    filters:
+      - field_value
+      - field_raw
+      - image_style
+      - field_target_entity
+    function:
+      - drupal_config
+      - drupal_view
+      - drupal_entity
+cm:
+  strategy: config-split
