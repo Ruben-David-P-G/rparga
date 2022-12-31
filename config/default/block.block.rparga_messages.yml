@@ -1,0 +1,22 @@
+uuid: 4a10360a-c4ce-4842-a1d5-5cb14fe7ab20
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rparga
+_core:
+  default_config_hash: xGQKfGrmv1Yj06GBAeOqMnxTUFEpwsGWeukIjvXQzPY
+id: rparga_messages
+theme: rparga
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

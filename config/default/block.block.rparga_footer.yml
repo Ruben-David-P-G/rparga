@@ -1,0 +1,27 @@
+uuid: 754caa4a-715c-42cc-9e9f-aef4d7c4997a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - rparga
+_core:
+  default_config_hash: NpzBNGGUn6RCkxBaA4X-OjirJV7zP-ROFL_-ftCv-4U
+id: rparga_footer
+theme: rparga
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

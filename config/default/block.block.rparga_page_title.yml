@@ -1,0 +1,20 @@
+uuid: 49f5a354-261f-413d-94c8-5b6e7c2683b8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rparga
+_core:
+  default_config_hash: _etvEGX3QKOzj6-8s6jf9k3lzBLxvp8iNUjEnLgWekg
+id: rparga_page_title
+theme: rparga
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 640a047e-8517-44bd-9837-ea5ef05d327b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.home_page_creator
+  module:
+    - user
+id: user_remove_role_action.home_page_creator
+label: 'Remove the Home Page creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: home_page_creator

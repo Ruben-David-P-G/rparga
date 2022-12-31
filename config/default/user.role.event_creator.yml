@@ -1,0 +1,23 @@
+uuid: 9412f9d3-428c-4e6f-9db8-b3bdad097a6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event
+  module:
+    - contextual
+    - node
+    - path
+    - toolbar
+id: event_creator
+label: 'Event creator'
+weight: 9
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'create event content'
+  - 'create url aliases'
+  - 'edit own event content'
+  - 'view event revisions'
+  - 'view own unpublished content'

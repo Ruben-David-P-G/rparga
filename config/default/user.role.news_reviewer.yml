@@ -1,0 +1,16 @@
+uuid: 87f4b6cb-288d-4e8a-94a9-a32e6311dfd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - node
+id: news_reviewer
+label: 'News reviewer'
+weight: 8
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'delete any news content'
+  - 'edit any news content'

@@ -1,0 +1,14 @@
+uuid: c47c8a98-07fe-4328-91dd-562128d003ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.home_page_reviewer
+  module:
+    - user
+id: user_add_role_action.home_page_reviewer
+label: 'Add the Home Page reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: home_page_reviewer

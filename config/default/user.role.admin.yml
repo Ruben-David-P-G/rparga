@@ -1,0 +1,147 @@
+uuid: 0d5c3e5b-48c7-4ad9-ab01-d0f04e05e483
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+    - block_content
+    - comment
+    - config
+    - contact
+    - content_moderation
+    - contextual
+    - devel_generate
+    - embed
+    - entity_reference_revisions
+    - field_ui
+    - file
+    - filter
+    - image
+    - layout_builder
+    - media
+    - menu_admin_per_menu
+    - menu_per_role
+    - node
+    - paragraphs
+    - path
+    - responsive_image
+    - role_delegation
+    - search
+    - system
+    - toolbar
+    - tour
+    - update
+    - views_ui
+    - workflows
+id: admin
+label: Admin
+weight: 2
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access comments'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'access tour'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'administer account menu items'
+  - 'administer account settings'
+  - 'administer admin menu items'
+  - 'administer block_content display'
+  - 'administer block_content fields'
+  - 'administer block_content form display'
+  - 'administer blocks'
+  - 'administer comment display'
+  - 'administer comment fields'
+  - 'administer comment form display'
+  - 'administer comment types'
+  - 'administer comments'
+  - 'administer contact forms'
+  - 'administer contact_message display'
+  - 'administer contact_message fields'
+  - 'administer contact_message form display'
+  - 'administer content types'
+  - 'administer devel_generate'
+  - 'administer display modes'
+  - 'administer embed buttons'
+  - 'administer filters'
+  - 'administer footer menu items'
+  - 'administer image styles'
+  - 'administer main menu items'
+  - 'administer media'
+  - 'administer media display'
+  - 'administer media fields'
+  - 'administer media form display'
+  - 'administer media types'
+  - 'administer menu'
+  - 'administer menu_per_role'
+  - 'administer modules'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer node form display'
+  - 'administer nodes'
+  - 'administer paragraph display'
+  - 'administer paragraph fields'
+  - 'administer paragraph form display'
+  - 'administer paragraphs settings'
+  - 'administer paragraphs types'
+  - 'administer permissions'
+  - 'administer responsive images'
+  - 'administer search'
+  - 'administer site configuration'
+  - 'administer software updates'
+  - 'administer themes'
+  - 'administer tools menu items'
+  - 'administer url aliases'
+  - 'administer user display'
+  - 'administer user fields'
+  - 'administer user form display'
+  - 'administer users'
+  - 'administer views'
+  - 'administer workflows'
+  - 'assign admin role'
+  - 'assign all roles'
+  - 'bypass menu_per_role access admin'
+  - 'bypass menu_per_role access front'
+  - 'bypass node access'
+  - 'cancel account'
+  - 'change own username'
+  - 'configure any layout'
+  - 'create and edit custom blocks'
+  - 'create media'
+  - 'create url aliases'
+  - 'delete all revisions'
+  - 'delete any media'
+  - 'delete media'
+  - 'delete orphan revisions'
+  - 'edit behavior plugin settings'
+  - 'edit own comments'
+  - 'export configuration'
+  - 'import configuration'
+  - 'link to any page'
+  - 'post comments'
+  - 'revert all revisions'
+  - 'search content'
+  - 'select account cancellation method'
+  - 'skip comment approval'
+  - 'synchronize configuration'
+  - 'update any media'
+  - 'update media'
+  - 'use advanced search'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view the administration theme'
+  - 'view unpublished paragraphs'
+  - 'view update notifications'
+  - 'view user email addresses'

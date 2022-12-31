@@ -1,0 +1,22 @@
+uuid: fe5b9be1-3e84-41a7-810b-720959862b74
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rparga
+_core:
+  default_config_hash: a27myzZWmT4K4ljburb6w75EmJ8JxdM4fUJNFFSODIY
+id: rparga_powered_by_drupal
+theme: rparga
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

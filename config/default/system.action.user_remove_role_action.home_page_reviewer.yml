@@ -1,0 +1,14 @@
+uuid: da4ed751-c6ca-4721-b616-ff88e6e76c04
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.home_page_reviewer
+  module:
+    - user
+id: user_remove_role_action.home_page_reviewer
+label: 'Remove the Home Page reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: home_page_reviewer

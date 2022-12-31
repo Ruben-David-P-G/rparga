@@ -1,0 +1,20 @@
+uuid: 85a0d763-7adf-4cdc-a235-b4664e613f65
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rparga
+_core:
+  default_config_hash: rMfawI3EzD7kRCsOh4t84uaI0iX3VsEugwzKW9F1RCA
+id: rparga_local_actions
+theme: rparga
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 7ab3a1b4-a5a7-4889-878f-6d51c447316a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - contextual
+    - node
+    - path
+    - toolbar
+id: news_creator
+label: 'News creator'
+weight: 7
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'create news content'
+  - 'create url aliases'
+  - 'edit own news content'
+  - 'view news revisions'
+  - 'view own unpublished content'

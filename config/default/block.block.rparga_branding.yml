@@ -1,0 +1,25 @@
+uuid: 7a99540b-b7cf-43e3-8f77-5fa5b097a898
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rparga
+_core:
+  default_config_hash: xeA2z1mBATaOZ5lSUfnUYw4DMbqeb2zAjAVpCeMUTZg
+id: rparga_branding
+theme: rparga
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

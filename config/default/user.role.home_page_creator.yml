@@ -1,0 +1,23 @@
+uuid: 07706074-d19f-4f05-835e-c010e976e0d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.home_page
+  module:
+    - contextual
+    - node
+    - path
+    - toolbar
+id: home_page_creator
+label: 'Home Page creator'
+weight: 3
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'create home_page content'
+  - 'create url aliases'
+  - 'edit own home_page content'
+  - 'view home_page revisions'
+  - 'view own unpublished content'

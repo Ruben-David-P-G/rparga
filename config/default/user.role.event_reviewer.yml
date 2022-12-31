@@ -1,0 +1,16 @@
+uuid: 0ed36fe9-4f09-4fe7-a84c-013234219877
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event
+  module:
+    - node
+id: event_reviewer
+label: 'Event reviewer'
+weight: 10
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'delete any event content'
+  - 'edit any event content'

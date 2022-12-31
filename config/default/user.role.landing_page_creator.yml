@@ -1,0 +1,23 @@
+uuid: 2659f0e0-63f5-43b2-8bbc-3764e37e1447
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.landing_page
+  module:
+    - contextual
+    - node
+    - path
+    - toolbar
+id: landing_page_creator
+label: 'Landing Page creator'
+weight: 5
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'create landing_page content'
+  - 'create url aliases'
+  - 'edit own landing_page content'
+  - 'view landing_page revisions'
+  - 'view own unpublished content'
