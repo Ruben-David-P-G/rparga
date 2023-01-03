@@ -1,0 +1,10 @@
+uuid: d90d8587-3ae8-44ad-af9b-e6f1d5376638
+langcode: en
+status: true
+dependencies: {  }
+id: row_news
+label: 'Row News'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

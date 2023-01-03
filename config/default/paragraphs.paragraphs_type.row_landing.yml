@@ -1,0 +1,10 @@
+uuid: 9c76b397-1bf3-4587-8b31-31ff908199fb
+langcode: en
+status: true
+dependencies: {  }
+id: row_landing
+label: 'Row Landing'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

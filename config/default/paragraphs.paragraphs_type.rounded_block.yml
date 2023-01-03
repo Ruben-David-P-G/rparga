@@ -1,0 +1,10 @@
+uuid: bf933c9f-53ae-49a4-b4f6-9566bfc1240d
+langcode: en
+status: true
+dependencies: {  }
+id: rounded_block
+label: 'Rounded Block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

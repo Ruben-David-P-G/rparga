@@ -1,0 +1,10 @@
+uuid: c4b3e5b7-e576-4328-84a2-b67aabb0b001
+langcode: en
+status: true
+dependencies: {  }
+id: row_event
+label: 'Row Event'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

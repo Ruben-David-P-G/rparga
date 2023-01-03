@@ -1,0 +1,10 @@
+uuid: dedf1c4d-76e9-4196-aede-96db54e354e6
+langcode: en
+status: true
+dependencies: {  }
+id: rounded_item
+label: 'Rounded Item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

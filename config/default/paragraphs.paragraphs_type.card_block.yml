@@ -1,0 +1,10 @@
+uuid: f67c283d-8ce0-4e5b-ac2f-77f20fce58f2
+langcode: en
+status: true
+dependencies: {  }
+id: card_block
+label: 'Card Block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
