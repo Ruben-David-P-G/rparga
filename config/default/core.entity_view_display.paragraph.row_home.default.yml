@@ -1,0 +1,67 @@
+uuid: a8dee9a4-5b5c-4f15-b5ea-f9e1ed71b4c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.row_home.field_id
+    - field.field.paragraph.row_home.field_items
+    - field.field.paragraph.row_home.field_limiter
+    - field.field.paragraph.row_home.field_padding_bottom
+    - field.field.paragraph.row_home.field_padding_top
+    - field.field.paragraph.row_home.field_theme
+    - paragraphs.paragraphs_type.row_home
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.row_home.default
+targetEntityType: paragraph
+bundle: row_home
+mode: default
+content:
+  field_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_items:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_limiter:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_padding_bottom:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_padding_top:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_theme:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden: {  }

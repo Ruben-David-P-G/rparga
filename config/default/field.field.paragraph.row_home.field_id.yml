@@ -1,0 +1,19 @@
+uuid: a1c0eca4-a784-4d89-b5ef-b9b25f321c8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_id
+    - paragraphs.paragraphs_type.row_home
+id: paragraph.row_home.field_id
+field_name: field_id
+entity_type: paragraph
+bundle: row_home
+label: ID
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
